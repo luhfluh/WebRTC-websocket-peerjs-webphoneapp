@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "node ./src/server.js",
-    "start-nodemon": "nodemon ./src/server.js"
+    "start-nodemon": "nodemon ./src/server.js",
+    "start-peerjs-server": "npx peerjs --port 443 --key --peerjs --path /myapp"
   }
 }
