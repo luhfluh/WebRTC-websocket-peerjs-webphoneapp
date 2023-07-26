@@ -1,0 +1,18 @@
+{
+  "name": "xlearn-peerjs-webrtc-phoneapp",
+  "version": "1.0.0",
+  "description": "An audio app by using peerjs with WebRTC",
+  "main": "src/server.js",
+  "author": "github.com/kojoluh",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.2",
+    "peer": "^1.0.0",
+    "peerjs": "^1.4.7"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-nodemon": "nodemon ./src/server.js"
+  }
+}
