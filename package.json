@@ -11,6 +11,9 @@
     "peer": "^1.0.0",
     "peerjs": "^1.4.7"
   },
+  "devDependencies": {
+    "jest": "29.6.2"
+  },
   "scripts": {
     "start": "node ./src/server.js",
     "start-nodemon": "nodemon ./src/server.js",
